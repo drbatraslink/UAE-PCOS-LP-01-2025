@@ -82,7 +82,16 @@ header{background:#fef6e2;position:fixed;top:0;z-index:1000!important}
 }
 .small_white_offer_offer{float:right;font-size:12px;font-weight:600;color:#ffffff;margin-top:-25px}
 @media(max-width:600px){
-.small_white_offer_offer{float:right;font-size:6px;font-weight:600;color:#ffffff;margin-top:-15px;margin-bottom:0}
+.small_white_offer_offer{float: right;
+        font-size: 6px;
+        font-weight: 600;
+        color: #ffffff;
+        margin-top: -83px;
+        margin-bottom: 0;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        right: 5px;
+        position: absolute;}
 }
 /*=====================================================================*/
 /* Writing testmonilas css*/
