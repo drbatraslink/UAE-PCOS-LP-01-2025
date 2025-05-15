@@ -41,17 +41,17 @@ header{background:#fef6e2;position:fixed;top:0;z-index:1000!important}
 .banner-section-cls{margin-top:60px;background:url(../images/banner-bg-pcos-mob.webp) bottom center no-repeat;background-size:cover}
 }
 .banner_list_newhair{padding:0;margin:0;list-style:disc!important;line-height:normal;text-align:left;padding-inline-start:25px}
-.banner_list_newhair li{display:list-item;color:#ffffff;font-weight:400;font-size:16px;position:relative;line-height:normal;margin-bottom:10px}
+.banner_list_newhair li{display:list-item;color:#fff;font-weight:400;font-size:16px;position:relative;line-height:normal;margin-bottom:10px}
 .banner_list_newhair li strong{font-weight:600}
 .banner_list_newhair li:first-child{padding-top:8px;padding-left:0}
 @media screen and (max-width:768px){
 .banner_list_newhair{text-align:center;margin-bottom:10px;padding-inline-start:0px}
 .banner_list_newhair li{display:inline;font-size:14px}
 .banner_list_newhair li:first-child{padding-top:0;padding-left:0}
-.banner_list_newhair li:not(:last-child)::after{content:'•';margin:0 4px;color:#ffffff}
+.banner_list_newhair li:not(:last-child)::after{content:'•';margin:0 4px;color:#fff}
 }
-.hair_banner_content h1{font-size:48px;font-weight:700!important;line-height:normal!important;color:#ffffff}
-.hair_banner_content h2{font-size:28px;font-weight:500;line-height:normal;color:#ffffff}
+.hair_banner_content h1{font-size:48px;font-weight:700!important;line-height:normal!important;color:#fff}
+.hair_banner_content h2{font-size:28px;font-weight:500;line-height:normal;color:#fff}
 @media (max-width:1680px){
 .hair_banner_content h1{font-size:32px}
 .hair_banner_content h2{font-size:21px;line-height:normal}
@@ -80,18 +80,9 @@ header{background:#fef6e2;position:fixed;top:0;z-index:1000!important}
 .img_banner_unit{width:70%}
 .banner_list_newhair li{font-size:12px}
 }
-.small_white_offer_offer{float:right;font-size:12px;font-weight:600;color:#ffffff;margin-top:-25px}
+.small_white_offer_offer{float:right;font-size:12px;font-weight:600;color:#fff;margin-top:-25px}
 @media(max-width:600px){
-.small_white_offer_offer{float: right;
-        font-size: 6px;
-        font-weight: 600;
-        color: #ffffff;
-        margin-top: -83px;
-        margin-bottom: 0;
-        writing-mode: vertical-rl;
-        text-orientation: mixed;
-        right: 5px;
-        position: absolute;}
+.small_white_offer_offer{float:right;font-size:6px;font-weight:600;color:#fff;margin-top:-83px;margin-bottom:0;writing-mode:vertical-rl;text-orientation:mixed;right:5px;position:absolute}
 }
 /*=====================================================================*/
 /* Writing testmonilas css*/
